@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 
 #card {
-  height: 500px;
-  width: 800px;
+  height: 700px; /* Aumentar la altura de la carta */
+  width: 900px; /* Aumentar el ancho de la carta */
   margin: 5em auto;
   position: fixed;
   top: -15px;
-  left: 25%;
+  left: 20%; /* Ajustar la posición para centrar la carta */
   display: flex;
   visibility: hidden;
 }
@@ -56,13 +56,13 @@
 
 .side {
   background: #eee;
-  height: 550px;
-  width: 400px;
+  height: 700px; /* Aumentar la altura de los lados de la carta */
+  width: 450px; /* Aumentar el ancho de los lados de la carta */
   padding: 10px;
 }
 
 .side.one {
-  width: 320px;
+  width: 400px; /* Ajustar el ancho del primer lado */
   transform: skew(10deg, 20deg);
   background: linear-gradient(90deg, #fff, #fff 40%, #ddd);
   display: flex; /* Utiliza flexbox para centrar el corazón verticalmente */
@@ -76,6 +76,7 @@
 .side.two {
   transform: skew(10deg, -15deg);
   background: linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
+  width: 450px; /* Ajustar el ancho del segundo lado */
 }
 
 body {
